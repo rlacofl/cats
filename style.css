@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  font-size: 100px;
+  color: pink;
+  text-align: center;
+}
+
+.container {
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.3s;
+}
+
+img {
+  margin-bottom: 2%;
+  transition: all 0.3s;
+}
+
+
+img:hover {
+  transform: scale(1.15);
+}
+
+
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+
+img {
+  width: 800px;
+  margin-bottom: 2%;
+  transition: all 0.3s;
+  }
+
+img:hover {
+  transform: translateY(10px);
+  transform: scale(1.15)
+  }
+  
+  */
